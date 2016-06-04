@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TapGestureViewController.h"
+#import "LongPressGestureViewController.h"
+#import "PanGestureViewController.h"
+#import "PinchGestureViewController.h"
+#import "RotationGestureViewController.h"
+#import "SwipeGestureViewController.h"
+#import "CustomGestureViewController.h"
 @interface ViewController : UIViewController
 
 

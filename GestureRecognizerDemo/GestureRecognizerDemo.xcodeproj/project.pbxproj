@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E58FE2741CFFF6A100C22427 /* TapGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58FE2731CFFF6A100C22427 /* TapGestureViewController.m */; };
+		E58FE2771CFFF6B300C22427 /* LongPressGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58FE2761CFFF6B300C22427 /* LongPressGestureViewController.m */; };
+		E58FE27A1CFFF6C400C22427 /* PanGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58FE2791CFFF6C400C22427 /* PanGestureViewController.m */; };
+		E58FE27D1CFFF6D400C22427 /* PinchGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58FE27C1CFFF6D400C22427 /* PinchGestureViewController.m */; };
+		E58FE2801CFFF6E500C22427 /* RotationGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58FE27F1CFFF6E500C22427 /* RotationGestureViewController.m */; };
+		E58FE2831CFFF6F500C22427 /* SwipeGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58FE2821CFFF6F500C22427 /* SwipeGestureViewController.m */; };
+		E58FE2861CFFF70900C22427 /* CustomGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58FE2851CFFF70900C22427 /* CustomGestureViewController.m */; };
+		E59C5D941D0120D400FD9912 /* flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E59C5D931D0120D400FD9912 /* flower.jpg */; };
+		E59C5D971D0122CD00FD9912 /* CustomGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = E59C5D961D0122CD00FD9912 /* CustomGestureRecognizer.m */; };
 		E5DE2A011CFF3B5A0008CF9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DE2A001CFF3B5A0008CF9F /* main.m */; };
 		E5DE2A041CFF3B5A0008CF9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DE2A031CFF3B5A0008CF9F /* AppDelegate.m */; };
 		E5DE2A071CFF3B5A0008CF9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DE2A061CFF3B5A0008CF9F /* ViewController.m */; };
@@ -27,6 +36,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E58FE2711CFFC1A800C22427 /* GestureRecognizerDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureRecognizerDemo_Prefix.pch; sourceTree = "<group>"; };
+		E58FE2721CFFF6A100C22427 /* TapGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapGestureViewController.h; sourceTree = "<group>"; };
+		E58FE2731CFFF6A100C22427 /* TapGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapGestureViewController.m; sourceTree = "<group>"; };
+		E58FE2751CFFF6B300C22427 /* LongPressGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongPressGestureViewController.h; sourceTree = "<group>"; };
+		E58FE2761CFFF6B300C22427 /* LongPressGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressGestureViewController.m; sourceTree = "<group>"; };
+		E58FE2781CFFF6C400C22427 /* PanGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanGestureViewController.h; sourceTree = "<group>"; };
+		E58FE2791CFFF6C400C22427 /* PanGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanGestureViewController.m; sourceTree = "<group>"; };
+		E58FE27B1CFFF6D400C22427 /* PinchGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchGestureViewController.h; sourceTree = "<group>"; };
+		E58FE27C1CFFF6D400C22427 /* PinchGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchGestureViewController.m; sourceTree = "<group>"; };
+		E58FE27E1CFFF6E500C22427 /* RotationGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationGestureViewController.h; sourceTree = "<group>"; };
+		E58FE27F1CFFF6E500C22427 /* RotationGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationGestureViewController.m; sourceTree = "<group>"; };
+		E58FE2811CFFF6F500C22427 /* SwipeGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeGestureViewController.h; sourceTree = "<group>"; };
+		E58FE2821CFFF6F500C22427 /* SwipeGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeGestureViewController.m; sourceTree = "<group>"; };
+		E58FE2841CFFF70900C22427 /* CustomGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGestureViewController.h; sourceTree = "<group>"; };
+		E58FE2851CFFF70900C22427 /* CustomGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGestureViewController.m; sourceTree = "<group>"; };
+		E59C5D931D0120D400FD9912 /* flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpg; sourceTree = "<group>"; };
+		E59C5D951D0122CD00FD9912 /* CustomGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGestureRecognizer.h; sourceTree = "<group>"; };
+		E59C5D961D0122CD00FD9912 /* CustomGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGestureRecognizer.m; sourceTree = "<group>"; };
 		E5DE29FC1CFF3B5A0008CF9F /* GestureRecognizerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureRecognizerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5DE2A001CFF3B5A0008CF9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E5DE2A021CFF3B5A0008CF9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +87,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E508E9A81D0153EE00E09686 /* CustomGesture */ = {
+			isa = PBXGroup;
+			children = (
+				E59C5D951D0122CD00FD9912 /* CustomGestureRecognizer.h */,
+				E59C5D961D0122CD00FD9912 /* CustomGestureRecognizer.m */,
+			);
+			name = CustomGesture;
+			sourceTree = "<group>";
+		};
+		E59C5D911D01207700FD9912 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E5DE2A051CFF3B5A0008CF9F /* ViewController.h */,
+				E5DE2A061CFF3B5A0008CF9F /* ViewController.m */,
+				E58FE2721CFFF6A100C22427 /* TapGestureViewController.h */,
+				E58FE2731CFFF6A100C22427 /* TapGestureViewController.m */,
+				E58FE2751CFFF6B300C22427 /* LongPressGestureViewController.h */,
+				E58FE2761CFFF6B300C22427 /* LongPressGestureViewController.m */,
+				E58FE2781CFFF6C400C22427 /* PanGestureViewController.h */,
+				E58FE2791CFFF6C400C22427 /* PanGestureViewController.m */,
+				E58FE27B1CFFF6D400C22427 /* PinchGestureViewController.h */,
+				E58FE27C1CFFF6D400C22427 /* PinchGestureViewController.m */,
+				E58FE27E1CFFF6E500C22427 /* RotationGestureViewController.h */,
+				E58FE27F1CFFF6E500C22427 /* RotationGestureViewController.m */,
+				E58FE2811CFFF6F500C22427 /* SwipeGestureViewController.h */,
+				E58FE2821CFFF6F500C22427 /* SwipeGestureViewController.m */,
+				E58FE2841CFFF70900C22427 /* CustomGestureViewController.h */,
+				E58FE2851CFFF70900C22427 /* CustomGestureViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E59C5D921D0120B600FD9912 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E59C5D931D0120D400FD9912 /* flower.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		E5DE29F31CFF3B5A0008CF9F = {
 			isa = PBXGroup;
 			children = (
@@ -83,8 +150,9 @@
 			children = (
 				E5DE2A021CFF3B5A0008CF9F /* AppDelegate.h */,
 				E5DE2A031CFF3B5A0008CF9F /* AppDelegate.m */,
-				E5DE2A051CFF3B5A0008CF9F /* ViewController.h */,
-				E5DE2A061CFF3B5A0008CF9F /* ViewController.m */,
+				E59C5D911D01207700FD9912 /* ViewController */,
+				E508E9A81D0153EE00E09686 /* CustomGesture */,
+				E59C5D921D0120B600FD9912 /* Resource */,
 				E5DE2A081CFF3B5A0008CF9F /* Main.storyboard */,
 				E5DE2A0B1CFF3B5A0008CF9F /* Assets.xcassets */,
 				E5DE2A0D1CFF3B5A0008CF9F /* LaunchScreen.storyboard */,
@@ -98,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				E5DE2A001CFF3B5A0008CF9F /* main.m */,
+				E58FE2711CFFC1A800C22427 /* GestureRecognizerDemo_Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -191,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E59C5D941D0120D400FD9912 /* flower.jpg in Resources */,
 				E5DE2A0F1CFF3B5A0008CF9F /* LaunchScreen.storyboard in Resources */,
 				E5DE2A0C1CFF3B5A0008CF9F /* Assets.xcassets in Resources */,
 				E5DE2A0A1CFF3B5A0008CF9F /* Main.storyboard in Resources */,
@@ -211,9 +281,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58FE2801CFFF6E500C22427 /* RotationGestureViewController.m in Sources */,
+				E58FE2741CFFF6A100C22427 /* TapGestureViewController.m in Sources */,
+				E58FE2771CFFF6B300C22427 /* LongPressGestureViewController.m in Sources */,
 				E5DE2A071CFF3B5A0008CF9F /* ViewController.m in Sources */,
+				E58FE2831CFFF6F500C22427 /* SwipeGestureViewController.m in Sources */,
 				E5DE2A041CFF3B5A0008CF9F /* AppDelegate.m in Sources */,
+				E58FE27A1CFFF6C400C22427 /* PanGestureViewController.m in Sources */,
+				E58FE27D1CFFF6D400C22427 /* PinchGestureViewController.m in Sources */,
+				E59C5D971D0122CD00FD9912 /* CustomGestureRecognizer.m in Sources */,
 				E5DE2A011CFF3B5A0008CF9F /* main.m in Sources */,
+				E58FE2861CFFF70900C22427 /* CustomGestureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,10 +419,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GestureRecognizerDemo/GestureRecognizerDemo_Prefix.pch;
 				INFOPLIST_FILE = GestureRecognizerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.drogan.pp.GestureRecognizerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
@@ -352,10 +433,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GestureRecognizerDemo/GestureRecognizerDemo_Prefix.pch;
 				INFOPLIST_FILE = GestureRecognizerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.drogan.pp.GestureRecognizerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};
@@ -402,6 +486,7 @@
 				E5DE2A201CFF3B5A0008CF9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5DE2A211CFF3B5A0008CF9F /* Build configuration list for PBXNativeTarget "GestureRecognizerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +495,7 @@
 				E5DE2A231CFF3B5A0008CF9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
